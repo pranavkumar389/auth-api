@@ -1,0 +1,2 @@
+DB_CONNECT = 'mongodb+srv://<username>:<password>@sandbox-24aco.mongodb.net/test?retryWrites=true&w=majority'
+TOKEN_SECRET = 'dmnjfierhfwooh48u35yirjqelfnjw2o39248035428fb'

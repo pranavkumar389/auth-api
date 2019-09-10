@@ -1,0 +1,36 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "Node.js API Authentication With JWT Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavkumar389/auth-api.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "JWT",
+    "API",
+    "Authentication"
+  ],
+  "author": "Pranav kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranavkumar389/auth-api/issues"
+  },
+  "homepage": "https://github.com/pranavkumar389/auth-api#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
